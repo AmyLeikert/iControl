@@ -8,6 +8,6 @@
 
 #import "GCFlipsideViewController.h"
 
-@interface GCMainViewController : UIViewController <GCFlipsideViewControllerDelegate>
+@interface GCMainViewController : UIViewController <GCFlipsideViewControllerDelegate, UITextFieldDelegate>
 
 @end

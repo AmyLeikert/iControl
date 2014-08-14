@@ -22,6 +22,10 @@
 		2400611118C663AC001E45C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240060F018C663AC001E45C5 /* UIKit.framework */; };
 		2400611918C663AC001E45C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2400611718C663AC001E45C5 /* InfoPlist.strings */; };
 		2400611B18C663AC001E45C5 /* iControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2400611A18C663AC001E45C5 /* iControlTests.m */; };
+		2400612918C6710A001E45C5 /* i_menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2400612518C6710A001E45C5 /* i_menu_background.png */; };
+		2400612A18C6710A001E45C5 /* o_tomato_sauce.png in Resources */ = {isa = PBXBuildFile; fileRef = 2400612618C6710A001E45C5 /* o_tomato_sauce.png */; };
+		2400612B18C6710A001E45C5 /* p_hughes_nathan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2400612718C6710A001E45C5 /* p_hughes_nathan.jpg */; };
+		2400612C18C6710A001E45C5 /* p_kelley_jeff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2400612818C6710A001E45C5 /* p_kelley_jeff.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,10 @@
 		2400611618C663AC001E45C5 /* iControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iControlTests-Info.plist"; sourceTree = "<group>"; };
 		2400611818C663AC001E45C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2400611A18C663AC001E45C5 /* iControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iControlTests.m; sourceTree = "<group>"; };
+		2400612518C6710A001E45C5 /* i_menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i_menu_background.png; sourceTree = "<group>"; };
+		2400612618C6710A001E45C5 /* o_tomato_sauce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o_tomato_sauce.png; sourceTree = "<group>"; };
+		2400612718C6710A001E45C5 /* p_hughes_nathan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p_hughes_nathan.jpg; sourceTree = "<group>"; };
+		2400612818C6710A001E45C5 /* p_kelley_jeff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p_kelley_jeff.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				2400610218C663AC001E45C5 /* GCMainViewController.m */,
 				2400610418C663AC001E45C5 /* GCFlipsideViewController.h */,
 				2400610518C663AC001E45C5 /* GCFlipsideViewController.m */,
+				2400612418C6710A001E45C5 /* images */,
 				2400610718C663AC001E45C5 /* Images.xcassets */,
 				240060F318C663AC001E45C5 /* Supporting Files */,
 			);
@@ -155,6 +164,17 @@
 				2400611718C663AC001E45C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2400612418C6710A001E45C5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2400612518C6710A001E45C5 /* i_menu_background.png */,
+				2400612618C6710A001E45C5 /* o_tomato_sauce.png */,
+				2400612718C6710A001E45C5 /* p_hughes_nathan.jpg */,
+				2400612818C6710A001E45C5 /* p_kelley_jeff.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2400612B18C6710A001E45C5 /* p_hughes_nathan.jpg in Resources */,
+				2400612C18C6710A001E45C5 /* p_kelley_jeff.jpg in Resources */,
+				2400612918C6710A001E45C5 /* i_menu_background.png in Resources */,
+				2400612A18C6710A001E45C5 /* o_tomato_sauce.png in Resources */,
 				2400610818C663AC001E45C5 /* Images.xcassets in Resources */,
 				240060F718C663AC001E45C5 /* InfoPlist.strings in Resources */,
 				2400610018C663AC001E45C5 /* Main.storyboard in Resources */,
